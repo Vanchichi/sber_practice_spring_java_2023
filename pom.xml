@@ -5,8 +5,12 @@
 
     <groupId>org.springframework</groupId>
     <artifactId>gs-maven</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <version>0.1.0</version>
+    <modules>
+
+        <module>Task2_beans</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
