@@ -9,6 +9,7 @@ import ru.sber.entity.Product;
  */
 public interface ProductRepository {
 
+
     long saveProduct(Product product);
 
     Optional<Product> findProductById(long id);

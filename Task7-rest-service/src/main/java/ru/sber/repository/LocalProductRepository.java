@@ -60,6 +60,7 @@ public class LocalProductRepository implements ProductRepository {
         return false;
     }
 
+
     @Override
     public boolean deleteProductById(long id) {
         return products.removeIf(product -> product.getId() == id);

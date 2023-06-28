@@ -1,7 +1,6 @@
 package ru.sber.controller;
 
 import ru.sber.entity.Client;
-import ru.sber.entity.Product;
 import ru.sber.repository.ClientRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;

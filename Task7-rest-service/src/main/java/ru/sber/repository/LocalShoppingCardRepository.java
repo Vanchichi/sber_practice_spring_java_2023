@@ -70,6 +70,7 @@ public class LocalShoppingCardRepository implements ShoppingCardRepository {
         return true;
     }
 
+
     @Override
     public boolean deleteProductFromShoppingCardById(long idShoppingCard, long idProduct) {
         ShoppingCard shoppingCard =shoppingCards.get((int) idShoppingCard);

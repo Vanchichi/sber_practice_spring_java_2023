@@ -6,8 +6,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.*;
-import ru.sber.entity.Product;
-import ru.sber.entity.ShoppingCard;
 import ru.sber.repository.ShoppingCardRepository;
 
 @Slf4j

@@ -55,7 +55,6 @@ Content-Type: application/json
 ###
 DELETE localhost:8080/shoppingCards/1/products/2
 Content-Type: application/json
-
 ###
 POST localhost:8080/shoppingCards/1
 Content-Type: application/json

@@ -12,6 +12,7 @@ import java.util.Random;
 @Repository
 public class LocalClientRepository implements ClientRepository{
 
+
     private List<Client> clients = new ArrayList<>(List.of(
             new Client(1,"Daria","Vanchichi","123123123",new ShoppingCard(generateIdClient() ,new ArrayList<>(),"hjgj")),
             new Client(2,"Maria","Marusya","145453",new ShoppingCard(generateIdClient(),new ArrayList<>(),"ghnnvb")),

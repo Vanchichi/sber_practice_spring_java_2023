@@ -7,6 +7,7 @@ import lombok.Data;
  * Товары, которые продают на сайте
  */
 
+
 @Data
 @AllArgsConstructor
 public class Product {

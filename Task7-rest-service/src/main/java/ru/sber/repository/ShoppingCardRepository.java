@@ -14,5 +14,7 @@ public interface ShoppingCardRepository {
     boolean changeQuantity(long idShoppingCard, long idProduct,Integer quantity);
     boolean deleteProductFromShoppingCardById(long idShoppingCard, long idProduct);
 
-    boolean payment(long idShoppingCard);
+    boolean payment(
+
+    );
 }

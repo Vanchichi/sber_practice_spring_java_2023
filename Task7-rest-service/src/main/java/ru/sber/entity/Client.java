@@ -7,6 +7,8 @@ import lombok.Data;
  * Клиент сайта
  */
 
+
+
 @Data
 @AllArgsConstructor
 public class Client {
