@@ -1,0 +1,61 @@
+###
+POST localhost:8080/clients
+Content-Type: application/json
+
+{
+"name": "Vika",
+"login": "Vikusik",
+"password": "123123123"
+}
+
+###
+GET localhost:8080/clients/1
+
+###
+DELETE localhost:8080/clients/1
+
+###
+POST localhost:8080/products
+Content-Type: application/json
+
+{
+  "name": "Морковь",
+  "price": 70,
+  "quantity": 14
+}
+
+###
+GET localhost:8080/products
+Content-Type: application/json
+
+###
+GET localhost:8080/products/1
+
+###
+PUT localhost:8080/products
+Content-Type: application/json
+
+{
+"id": 1,
+"name": "Банан",
+"price": 80,
+  "quantity":5
+}
+
+###
+DELETE localhost:8080/products/1
+
+###
+POST localhost:8080/shoppingCards/1/products/2
+Content-Type: application/json
+###
+PUT localhost:8080/shoppingCards/1/products/2/1
+Content-Type: application/json
+
+###
+DELETE localhost:8080/shoppingCards/1/products/2
+Content-Type: application/json
+
+###
+POST localhost:8080/shoppingCards/1
+Content-Type: application/json
