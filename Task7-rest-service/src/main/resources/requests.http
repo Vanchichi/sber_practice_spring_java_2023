@@ -29,6 +29,10 @@ GET localhost:8080/products
 Content-Type: application/json
 
 ###
+GET localhost:8080/products?name=Морковь
+Content-Type: application/json
+
+###
 GET localhost:8080/products/1
 
 ###
