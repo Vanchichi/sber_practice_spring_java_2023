@@ -1,0 +1,35 @@
+###Добавление продукта на склад
+POST localhost:8080/products
+Content-Type: application/json
+
+{
+  "name": "Морковь",
+  "price": 70,
+  "quantity": 14
+}
+
+###Получение всего списка продуктов на складе
+GET localhost:8080/products
+Content-Type: application/json
+
+###Прлучение продукта по имени
+GET localhost:8080/products?name=Морковь
+Content-Type: application/json
+
+###Получение продукта по id
+GET localhost:8080/products/1
+
+###Изменение продукта
+PUT localhost:8080/products
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Банан",
+  "price": 80,
+  "quantity":5
+}
+
+###Удаление продукта со склада
+DELETE localhost:8080/products/1
+
