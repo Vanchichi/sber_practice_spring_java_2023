@@ -1,0 +1,17 @@
+###Добавление клиента
+POST localhost:8080/clients
+Content-Type: application/json
+
+{
+  "name": "Vika",
+  "login": "Vikusik",
+  "password": "123123123"
+}
+
+###Получение клиента по id
+GET localhost:8080/clients/6
+Content-Type: application/json
+
+###Удаление клиента по id
+DELETE localhost:8080/clients/8
+Content-Type: application/json
